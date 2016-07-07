@@ -1,0 +1,29 @@
+2016-07-07T19:07:32.363922+00:00 heroku[api]: Enable Logplex by jimhrusk@yahoo.com
+2016-07-07T19:07:32.363922+00:00 heroku[api]: Release v2 created by jimhrusk@yahoo.com
+2016-07-07T19:07:55.165107+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-07T19:07:55.165113+00:00 heroku[slug-compiler]: HINT: This occurs when Heroku cannot detect the buildpack
+2016-07-07T19:07:55.165114+00:00 heroku[slug-compiler]:       to use for this application automatically.
+2016-07-07T19:07:55.165115+00:00 heroku[slug-compiler]: See https://devcenter.heroku.com/articles/buildpacks
+2016-07-07T19:07:55.165112+00:00 heroku[slug-compiler]: Slug compilation failed: no Cedar-supported app detected
+2016-07-07T19:08:30.295262+00:00 heroku[run.3142]: Starting process with command `rake db:migrate`
+2016-07-07T19:08:30.257895+00:00 heroku[run.3142]: Awaiting client
+2016-07-07T19:08:30.382138+00:00 heroku[run.3142]: State changed from starting to up
+2016-07-07T19:08:32.702492+00:00 heroku[run.3142]: Process exited with status 127
+2016-07-07T19:08:32.720895+00:00 heroku[run.3142]: State changed from up to complete
+2016-07-07T19:08:29.352558+00:00 heroku[api]: Starting process with command `rake db:migrate` by jimhrusk@yahoo.com
+2016-07-07T19:32:31.627090+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-07T19:32:31.627142+00:00 heroku[slug-compiler]: Slug compilation failed: no Cedar-supported app detected
+2016-07-07T19:32:31.627144+00:00 heroku[slug-compiler]: HINT: This occurs when Heroku cannot detect the buildpack
+2016-07-07T19:32:31.627146+00:00 heroku[slug-compiler]: See https://devcenter.heroku.com/articles/buildpacks
+2016-07-07T19:32:31.627145+00:00 heroku[slug-compiler]:       to use for this application automatically.
+2016-07-07T19:33:07.193943+00:00 heroku[run.4558]: Awaiting client
+2016-07-07T19:33:07.250104+00:00 heroku[run.4558]: Starting process with command `rake db:migrate`
+2016-07-07T19:33:07.366120+00:00 heroku[run.4558]: State changed from starting to up
+2016-07-07T19:33:10.692694+00:00 heroku[run.4558]: Process exited with status 127
+2016-07-07T19:33:10.707473+00:00 heroku[run.4558]: State changed from up to complete
+2016-07-07T19:33:06.214761+00:00 heroku[api]: Starting process with command `rake db:migrate` by jimhrusk@yahoo.com
+2016-07-07T19:43:07.839201+00:00 heroku[slug-compiler]: Slug compilation failed: no Cedar-supported app detected
+2016-07-07T19:43:07.839193+00:00 heroku[slug-compiler]: Slug compilation started
+2016-07-07T19:43:07.839204+00:00 heroku[slug-compiler]:       to use for this application automatically.
+2016-07-07T19:43:07.839205+00:00 heroku[slug-compiler]: See https://devcenter.heroku.com/articles/buildpacks
+2016-07-07T19:43:07.839203+00:00 heroku[slug-compiler]: HINT: This occurs when Heroku cannot detect the buildpack
