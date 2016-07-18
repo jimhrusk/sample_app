@@ -1,9 +1,43 @@
-# original
+<!-- # original
 <h1>StaticPages#help</h1>
 <p>Find me in app/views/static_pages/help.html.erb</p>
 
 # Hartl listing 3.13 page 120 7/8/2016
 <h1>Help</h1>
+<p>
+  Get help on the Ruby on Rails Tutorial at the
+  <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
+  To get help on this sample app, see the
+  <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
+</p>
+
+-->
+
+
+<!-- #Hartl page 130 Listing 3.21 20160715 -->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+-->
+  <!-- Hartl Listing 3.24 page 133 20160715-->
+  <!-- <title>Ruby on Rails Tutorial Sample App | Help</title> -->
+<!--
+  <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+</head>
+<body>
+    <h1>Help</h1>
+    <p>
+      Get help on the Ruby on Rails Tutorial at the
+      <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
+      To get help on this sample app, see the
+      <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
+    </p>
+</body>
+</html>
+-->
+
+<% provide(:title, 'Help') %> <h1>Help</h1>
 <p>
   Get help on the Ruby on Rails Tutorial at the
   <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
